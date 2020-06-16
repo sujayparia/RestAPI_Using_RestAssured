@@ -1,0 +1,9 @@
+<suite name="Rest API Automation using RestAssured">
+
+	<test name="Rest API Automation">
+		<classes>
+			<class name="TestCase.TC001_GET_Test"></class>
+			<class name="TestCase.TC002_POST_Test"></class>
+		</classes>
+	</test>
+</suite>
