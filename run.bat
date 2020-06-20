@@ -1,2 +1,2 @@
-cd E:\Sujay_Automation\RestAPIAutomation\RestAPI_Using_RestAssured
+E:\Sujay_Automation\RestAPIAutomation\RestAPI_Using_RestAssured
 mvn clean install
