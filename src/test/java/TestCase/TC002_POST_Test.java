@@ -13,8 +13,8 @@ import io.restassured.specification.RequestSpecification;
 
 public class TC002_POST_Test {
 
-	@Test(dataProvider="baseURL",enabled=false)
-	public void post(String FName, String LName, String UName, String Pw, String Emal) {
+	@Test
+	public void post() {
 
 		// Define base url
 		RestAssured.baseURI=getData.testData("TC002_PostTest", "BASE_URL");
@@ -24,11 +24,11 @@ public class TC002_POST_Test {
 
 		// Create payload 
 		JSONObject obj = new JSONObject();
-		obj.put("FirstName", FName);
-		obj.put("LastName", LName);
-		obj.put("UserName", UName);
-		obj.put("Password", Pw);
-		obj.put("Email", Emal);
+		obj.put("FirstName", "TestNamejay12");
+		obj.put("LastName", "Lastnameparia12");
+		obj.put("UserName", "Jayparia12");
+		obj.put("Password", "123412");
+		obj.put("Email", "abcparia12@gmail.com");
 		
 		// Add payload to request body
 		httpRequest.body(obj.toString());
@@ -55,10 +55,4 @@ public class TC002_POST_Test {
 		System.out.println("Response Body: --> "+responseBody);
 	}
 	
-	@DataProvider(name="baseURL")
-	String[] dataProviderURL() {
-		String empdata [] = {"TestNamejay12","Lastnameparia12","Jayparia12","123412","abcparia12@gmail.com"};
-		return empdata;
-	}
-
 }
