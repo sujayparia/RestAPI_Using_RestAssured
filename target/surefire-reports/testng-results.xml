@@ -1,13 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results total="1" passed="1" failed="0" skipped="0">
+<testng-results total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2020-06-20T08:55:48Z" name="Command line suite" finished-at="2020-06-20T08:55:52Z" duration-ms="4413">
+  <suite started-at="2020-06-20T11:21:24Z" name="Command line suite" finished-at="2020-06-20T11:21:33Z" duration-ms="8573">
     <groups>
     </groups>
-    <test started-at="2020-06-20T08:55:48Z" name="Command line test" finished-at="2020-06-20T08:55:52Z" duration-ms="4413">
+    <test started-at="2020-06-20T11:21:24Z" name="Command line test" finished-at="2020-06-20T11:21:33Z" duration-ms="8573">
+      <class name="TestCase.TC002_POST_Test">
+        <test-method signature="post()[pri:0, instance:TestCase.TC002_POST_Test@33afa13b]" started-at="2020-06-20T16:51:31Z" name="post" finished-at="2020-06-20T16:51:33Z" duration-ms="1900" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- post -->
+      </class> <!-- TestCase.TC002_POST_Test -->
       <class name="TestCase.TC001_GET_Test">
-        <test-method signature="get()[pri:0, instance:TestCase.TC001_GET_Test@4e91d63f]" started-at="2020-06-20T14:25:48Z" name="get" finished-at="2020-06-20T14:25:52Z" duration-ms="4395" status="PASS">
+        <test-method signature="get()[pri:0, instance:TestCase.TC001_GET_Test@6dbb137d]" started-at="2020-06-20T16:51:24Z" name="get" finished-at="2020-06-20T16:51:31Z" duration-ms="6639" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- get -->
